@@ -1,6 +1,7 @@
 [build]
   base = "frontend"
-  command = "npm run build"
+  # Install dependencies (including devDependencies like Vite) before building
+  command = "npm install && npm run build"
   publish = "dist"
 
 # SPA fallback (so refresh/deep links don't 404)
