@@ -30,7 +30,6 @@ The project is split into two parts:
    - Install dependencies (use your active Python, or a virtualenv if you prefer):
      ```bash
      pip install -r requirements.txt
-     pip install email-validator
      ```
    - Start the API on port 8000:
      ```bash
@@ -51,6 +50,11 @@ The project is split into two parts:
      ```text
      VITE_API_BASE_URL=https://your-backend-url
      ```
+
+### Deployment / Live URLs
+
+- **Live application URL**: _fill in after deploying the frontend (for example, a Netlify or Vercel URL)_  
+- **Backend API URL**: _fill in after deploying the FastAPI backend (for example, a Render URL like `https://your-app.onrender.com`)_
 
 ### Folder structure
 
