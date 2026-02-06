@@ -1,7 +1,8 @@
 [build]
   base = "frontend"
-  # Install dependencies (including devDependencies like Vite) before building
-  command = "npm install && npm run build"
+  # Install dependencies (including devDependencies like Vite) before building,
+  # then run Vite via npx to avoid any permission issues with the vite binary.
+  command = "npm install && npx vite build"
   publish = "dist"
 
 # SPA fallback (so refresh/deep links don't 404)
